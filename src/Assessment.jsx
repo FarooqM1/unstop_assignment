@@ -113,7 +113,7 @@ const Assessment = () => {
                     <div className='my_assessmnet_card_two'>
                         <div className='my_assessmnet_card_two_top'>
                             <div className='my_assessmnet_card_two_top_box'><RiHandbagFill /></div>
-                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab /></div>
+                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab onClick={handleShow}/></div>
                         </div>
                         <div className='math_topic'>
                             <div>
@@ -147,7 +147,7 @@ const Assessment = () => {
                     <div className='my_assessmnet_card_two'>
                         <div className='my_assessmnet_card_two_top'>
                             <div className='my_assessmnet_card_two_top_box'><RiHandbagFill /></div>
-                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab /></div>
+                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab onClick={handleShow}/></div>
                         </div>
                         <div className='math_topic'>
                             <div>
@@ -181,7 +181,7 @@ const Assessment = () => {
                     <div className='my_assessmnet_card_two'>
                         <div className='my_assessmnet_card_two_top'>
                             <div className='my_assessmnet_card_two_top_box'><RiHandbagFill /></div>
-                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab /></div>
+                            <div className='my_assessmnet_card_two_menu'><CiMenuKebab onClick={handleShow}/></div>
                         </div>
                         <div className='math_topic'>
                             <div>
